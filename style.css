@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+   background-color: black;
+}
+
+.arrow {
+    margin-left: 1cm;
+    color: white;
+    padding: 30px;
+}
+
+.profilelogo {
+    color: white;
+    font-size: 1cm;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid gold;
+    border-radius: 50%;
+    display: inline-block; 
+    padding: 10px;    
+    margin-top: 0.2cm;
+    margin-left: 16cm;
+}
+
+#para1 {
+    color: white;
+    margin-top: 0.35cm;
+    margin-left: 15.3cm;
+} 
+
+.para1,
+.para2,
+.para3,
+.para4,
+.para5,
+.para6,
+.para7,
+.para8,
+.para9,
+.para10 {
+    color: white;
+    margin-left: 1cm;
+}
+
+.Fname,
+.Yourself {
+    height: 0.8cm;
+    width: 10cm;
+    margin-left: 1cm;
+    border: 2px solid gold;
+    border-radius: 3px;
+}
+
+.Yourself {
+    height: 1.6cm;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven {
+    margin-top: 0.5cm;
+}
+
+#save {
+    height: 1cm;
+    width: 7cm;
+    border: 1px solid gold;
+    border-radius: 10px;
+    margin-left: 14cm;
+    margin-bottom: 1cm;
+    background-color: gold;
+    cursor: pointer;
+}
+
+#save:hover {
+    color: darkgoldenrod;
+}
+
+
+@media (max-width: 1200px) {
+    .profilelogo {
+        margin-left: 12cm;
+    }
+
+    #para1 {
+        margin-left: 11.3cm;
+    }
+
+    #save {
+        margin-left: 10cm;
+    }
+}
+
+@media (max-width: 992px) {
+    .profilelogo {
+        margin-left: 8cm;
+    }
+
+    #para1 {
+        margin-left: 7.3cm;
+    }
+
+    #save {
+        margin-left: 6cm;
+    }
+}
+
+@media (max-width: 768px) {
+    .arrow {
+        margin-left: 0.5cm;
+        padding: 20px;
+    }
+
+    .profilelogo {
+        margin-left: 4cm;
+    }
+
+    #para1 {
+        margin-left: 3.3cm;
+    }
+
+    .Fname,
+    .Yourself {
+        width: 8cm;
+    }
+
+    #save {
+        margin-left: 4cm;
+    }
+}
+
+@media (max-width: 576px) {
+    .arrow {
+        margin-left: 0.2cm;
+        padding: 10px;
+    }
+
+    .profilelogo {
+        margin-left: 2cm;
+        font-size: 0.8cm;
+    }
+
+    #para1 {
+        margin-left: 1.3cm;
+    }
+
+    .Fname,
+    .Yourself {
+        width: 6cm;
+    }
+
+    #save {
+        margin-left: 2cm;
+    }
+}
+
+
